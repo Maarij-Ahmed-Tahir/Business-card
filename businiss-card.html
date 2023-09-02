@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business card - Practice</title>
+    <style>
+        body {
+            margin-top: 50px;
+            background-color: rgb(32, 23, 23);
+            /* display: flex;
+            justify-content: space-between; */
+        }
+
+        .card-background {
+            background-color: black;
+            width: 500px;
+            border: 6px double goldenrod;
+            border-radius: 10px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+        }
+        .card-inside{
+            background-color: goldenrod;
+            color: rgb(26, 5, 0);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 15px;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+       
+        .prf-pic {
+            border: 3px solid black;
+            border-radius: 100px;
+            width: 150px;
+        }
+        .content{
+            margin-top: 10px;
+            text-align: center;
+        }
+        .text{
+            color: black;
+        }
+
+        .card-second{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+            background-color: rgb(39, 180, 69);
+            width: 500px;
+            border: 4px solid rgb(65, 65, 236);
+            border-radius: 10px;
+        }
+
+        .second-background {
+            background-color: rgb(248, 243, 250);
+            color: rgb(5, 5, 5);
+            margin: 15px 12px;
+            padding: 18px;
+            display: flex;
+            justify-content: space-around;
+            border: 2px solid rgb(65, 65, 236);
+            border-radius: 10px;
+        }
+
+        .avatar{
+            width: 150px;
+            border: 3px solid rgb(6, 6, 211);
+            border-radius: 10%;
+            filter: brightness(80%);
+            filter: contrast(130%);
+            filter: drop-shadow(0%);
+        }
+        
+        .info{
+            text-align: left;
+            margin-top: 10px;
+            font-family: serif;   
+        }
+        h3 {
+            color: #333;
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        p {
+            color: rgb(43, 42, 42);
+            font-size: 16px;
+            font-weight: bold;
+        }
+        h4 {
+            color: #01538a;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>   
+    <div class="card-background">
+        <div class="card-inside">
+            <img src="Hotpot (3).png" alt="Flynn Hunt's mark as a profile pic" class="prf-pic">
+            <div class="content">
+                <h3 class="text">Flynn Hunt </h3>
+                <p class="text">Arcane Knight: Emperror  Level</p>
+                <h4 class="text">Dark-Mist Clan, Terra Magnus </h4>
+            </div>
+        </div>
+    </div>
+
+    <Div class="card-second">
+        <div class="second-background">
+            <img src="my pic2.jpg" 
+                alt="Pic of maarij ahmed tahir standing infront of a farm full of greenry"
+                class="avatar">
+                <div class="info">
+                    <h3>Ma'arij Ahmed Tahir</h3>
+                    <p>Frontend Dev: Beginner Level</p>
+                    <h4>Hyderabar, Pakistan</h4>
+                </div>
+        </div>
+    </Div>
+</body>
+
+</html>
